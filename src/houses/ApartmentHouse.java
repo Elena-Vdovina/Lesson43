@@ -12,4 +12,9 @@ public class ApartmentHouse extends House {
     super(address);
     this.entrance = entrance;
   }
+
+  @Override
+  public String toString() {
+    return String.format("Многоквартирный дом (%d подъездов - %s", entrance, getAddress());
+  }
 }
