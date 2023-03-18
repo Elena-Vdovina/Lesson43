@@ -26,6 +26,7 @@ public class Houses {
     for (House house : houses) {
       System.out.println(house.toString());
     }
-
+    ph2.raze();
+    ah1.raze();
   }
 }
