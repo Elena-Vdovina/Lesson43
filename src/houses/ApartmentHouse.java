@@ -5,4 +5,11 @@ package houses;
 // число - количество подъездов.
 // В методе toString() выводите в удобном виде всю известную информацию о доме.
 public class ApartmentHouse extends House {
+
+  private int entrance;
+
+  public ApartmentHouse(String address, int entrance) {
+    super(address);
+    this.entrance = entrance;
+  }
 }
