@@ -9,4 +9,12 @@ public abstract class House {
   public House(String address) {
     this.address = address;
   }
+
+  public void setAddress(String address) {
+    this.address = address;
+  }
+
+  public String getAddress() {
+    return address;
+  }
 }
